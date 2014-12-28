@@ -1,5 +1,5 @@
 package Acme::HTTP;
-
+$Acme::HTTP::VERSION = '0.10';
 use strict;
 use warnings;
 
@@ -22,7 +22,6 @@ our @EXPORT    = qw(
 our %EXPORT_TAGS = (all => [ @EXPORT ]);
 
 our @EXPORT_OK = qw();
-our $VERSION   = '0.09';
 
 use IO::Select;
 
